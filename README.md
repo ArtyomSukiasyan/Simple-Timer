@@ -1,0 +1,1 @@
+Simple timer in pure JavaScript.
