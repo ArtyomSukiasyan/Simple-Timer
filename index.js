@@ -55,9 +55,9 @@ function startTimer() {
 
 function startCalc() {
   const content = result.textContent.split(" ");
-  let hours = content[0];
-  let minutes = content[1];
-  let seconds = content[2];
+  let hours = Number(content[0]);
+  let minutes = Number(content[1]);
+  let seconds = Number(content[2]);
 
   if (hours === 0 && minutes === 0 && seconds === 0) {
     clearInterval(id);
